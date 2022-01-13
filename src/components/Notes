@@ -1,0 +1,15 @@
+What is JSX:
+lets us write html-like code in our JS files.
+
+Imperative vs Declarative Programming:
+imperative (vanilla js) - describes how something is done in detail
+Declarative - describes what you would like to do
+
+JSX is not a string - we are not interpolating HTML strings
+JSX is the return value of a function component
+JSX works with expressions, not statements
+^ if statements do not work, but ternary statements do work
+A component can dender another component using jsx
+^ use a capital letter: ie. <Header />
+A component must return one jsx element
+JSX property names: use className instead of class, and use htmlFor instead of for
